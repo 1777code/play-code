@@ -1,85 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/styles.css" type="text/css" />
-    <script defer src="./js/app.js"></script>
-    <title>Document</title>
-  </head>
-  <body>
-    <div id="page-wrapper">
-      <!--Page Wrapper Starts Here-->
-      <header id="main-header">
-        <!--Header Starts Here-->
-        <div id="welcome-message-area">
-          <!--Welcome Message Area Starts Here-->
-          <p id="welcome-message-text">hello to all welcome to my site</p>
-          <img src="./imgs/code-img-2.jpg" id="message-img" alt="code image" />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="./css/styles.css" type="text/css" />
+  <script defer src="./js/app.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="page-wapper-container">
+    <!--Main Nav Starts Here-->
+    <nav>
+      <div class="logo-div">
+        <img src="./imgs/code-img-2.jpg" class="logo-img" alt="logo">
+      </div>
+      <div class="search-wrapper">
+        <i class='bx bx-search search'></i>
+        <div class="input-and-icon-div">
+          <input type="text" class="input">
         </div>
-        <!--Welcome Message Area Ends Here-->
-      </header>
-      <!--Header Ends Here-->
-      <section id="onwer-profile-section">
-        <!--Onwer Profile Section Starts Here-->
-        <div id="onwer-profile-img-div">
-          <!--Onwer Profile Image Div Starts Here-->
-          <img
-            src="./imgs/onwer-profile.png"
-            id="onwer-img"
-            alt="onwer profile"
-          />
+      </div>
+    </nav>
+    <!--Main Nav Ends Here-->
+    <section class="video-container-section">
+      <!--Page Container Starts Here-->
+      <div class="main-video-container">
+        <video src="./videos/teachers.mp4" controls class="video-player"></video>
+        <h3 class="main-video-title">thank to teacher</h3>
+      </div>
+      <!--Video List Container Starts Here-->
+      <div class="video-list-container">
+        <div class="video-list-div active">
+          <video src="./videos/teachers.mp4" class="list-video"></video>
+          <h3 class="video-list-title">thank to teacher</h3>
         </div>
-        <!--Onwer Profile Image Div Ends Here-->
-        <div id="onwer-text-area">
-          <!--Onwer Profile Text Area Starts Here-->
-          <p id="onwer-text">
-            of letters, as opposed to using 'Content here, content here', making
-            it look like readable English. Many desktop publishing packages and
-            web page editors now use Lorem Ipsum as their default model text,
-          </p>
+        <div class="video-list-div">
+          <video src="./videos/veteran-day.mp4" class="list-video"></video>
+          <h3 class="video-list-title">thanks to all veteran</h3>
         </div>
-        <!--Onwer Profile Text Area Ends Here-->
-      </section>
-      <!--Onwer Profile Section Ends Here-->
-      <section id="vidoe-section">
-        <!--Vidoe Section Starts Here-->
-        <video controls class="video-player">
-          <source src="./videos/Class.mp4" type="video/mp4" />
-          Your browser does not support mp4 videos
-        </video>
-        <video controls class="video-player">
-          <source src="./videos/VDAY_Large.mp4" type="video/mp4" />
-          Your browser does not support mp4 videos
-        </video>
-        <video controls class="video-player">
-          <source src="./videos/positive+nurse.mp4" type="video/mp4" />
-          Your browser does not support mp4 videos
-        </video>
-        <video controls class="video-player">
-          <source src="./videos/MagicJewels_Large.mp4" type="video/mp4" />
-          Your browser does not support mp4 videos
-        </video>
-        <video controls class="video-player">
-          <source src="./videos/RAINDAY_Large.mp4" type="video/mp4" />
-          Your browser does not support mp4 videos
-        </video>
-        <video controls class="video-player">
-          <source src="./videos/MUSIC NIGHT_Large.mp4" type="video/mp4" />
-          Your browser does not support mp4 videos
-        </video>
-        <video controls class="video-player">
-          <source src="./videos/COPSDAY_Large.mp4" type="video/mp4" />
-          Your browser does not support mp4 videos
-        </video>
-        <video controls class="video-player">
-          <source src="./videos/HOME.mp4" type="video/mp4" />
-          Your browser does not support mp4 videos
-        </video>
-      </section>
-      <!--Vidoe Section Ends Here-->
-    </div>
-    <!--Page Wrapper Ends Here-->
-  </body>
+        <div class="video-list-div">
+          <video src="./videos/doctor-and-nurse.mp4" class="list-video"></video>
+          <h3 class="video-list-title">thanks to all doctor and nurse</h3>
+        </div>
+        <div class="video-list-div">
+          <video src="./videos/home.mp4" class="list-video"></video>
+          <h3 class="video-list-title">welcome home</h3>
+        </div>
+        <div class="video-list-div">
+          <video src="./videos/rain-day.mp4" class="list-video"></video>
+          <h3 class="video-list-title">rain day</h3>
+        </div>
+        <div class="video-list-div">
+          <video src="./videos/magic-Jewels-box.mp4" class="list-video"></video>
+          <h3 class="video-list-title">magic jewels box</h3>
+        </div>
+        <div class="video-list-div ">
+          <video src="./videos/music-story.mp4" class="list-video"></video>
+          <h3 class="video-list-title">music story</h3>
+        </div>
+        <div class="video-list-div">
+          <video src="./videos/bike-time.mp4" class="list-video"></video>
+          <h3 class="video-list-title">ride time</h3>
+        </div>
+        <div class="video-list-div">
+          <video src="./videos/cop-day.mp4" class="list-video"></video>
+          <h3 class="video-list-title">cop day</h3>
+        </div>
+
+      </div>
+      <!--Video List Container Div Ends Here-->
+    </section>
+    <!--Video Container Section Ends Here-->
+    <!--Joke Section Starts Here-->
+    <section class="joke-section">
+      <h3 class="joke-text"></h3>
+      <h3 class="joke-error-text"></h3>
+      <button class="joke-btn">tell me a joke</button>
+    </section>
+    <!--Joke Section Ends Here-->
+  </div>
+  <!--Page Container Ends Here-->
+</body>
+
 </html>
